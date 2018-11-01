@@ -1,0 +1,110 @@
+input,.btn{
+    padding: 5px;
+    border-radius: 10px;
+}
+input{
+    float: right;
+}
+
+i:hover{
+
+    cursor: pointer;
+
+}
+
+.btn{
+    border-radius: 10px;
+    background:  #7db9e8;
+    padding: 5px;
+    height: 40px;
+    box-shadow: 7px 8px 11px lightgray;
+    color: black;
+    margin-inline-start: 78%;
+    border: none;
+    font-weight:bold;
+    outline: none;
+    color: black;
+    font-size: 16px;
+}
+
+.search-box{
+    float: right;
+    transform: translate(-13%);
+    background:   #7db9e8;
+    height: 40px;
+    border-radius: 40px;
+    box-shadow: 7px 8px 11px lightgray;
+    padding: 10px;
+}
+
+.search-box:hover > .search-text{
+    width: 80px;
+    padding: 0 6px;
+}
+
+.search-btn{
+    color: black;
+    float: right;
+    width: 40px;
+    height: 22px;
+    background:  #7db9e8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-text{
+    border: none;
+    background: none;
+    font-weight:bold;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: black;
+    font-size: 16px;
+    transition: 0.4s;
+    line-height: 22px;
+    width: 0px;
+}
+
+.mat-column-update {
+    flex: 0 0 60px;
+    color: green;
+}
+    
+.mat-column-delete {
+    flex: 0 0 60px;
+    color: red;
+}
+
+  mat-table { 
+      margin-top: 10px;
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+
+  .mat-column-update {
+    flex: 0 0 100px;
+  }
+
+  
+  .mat-header-cell{
+    font-size: 15px;
+     font-weight:bold;
+ color: black;
+ background: #7db9e8;
+ box-shadow: 7px 8px 11px lightgray;
+ text-align: center;
+ 
+ }
+ 
+ .mat-paginator{
+     font-size: 15px;
+     font-weight:bold;
+ color: black;
+ background: #7db9e8;
+ box-shadow: 7px 8px 9px lightgray;
+ box-sizing: 1111px;
+ border-radius: 12px;
+ }
+  
